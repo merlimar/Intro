@@ -1,1 +1,12 @@
+body{
+	background-color: brown;
+}
 
+quote{
+	visibility:hidden;
+}
+
+h1:hover + quote {
+	visibility : visible;
+	background-color: yellow;
+}
